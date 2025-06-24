@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "docs": "open https://docs.aws.amazon.com/cdk/api/toolkit-lib/",
+    "demo": "tsx demo.ts"
+  },
+  "keywords": [],
+  "author": "Momo Kornher",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aws-cdk/toolkit-lib": "^1.2.0",
+    "@aws-sdk/client-lambda": "^3.821.0",
+    "@inquirer/prompts": "^7.5.3",
+    "aws-cdk-lib": "^2.199.0",
+    "colors": "^1.4.0",
+    "constructs": "^10.4.2"
+  }
+}
